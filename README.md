@@ -14,3 +14,7 @@ catalog/view/theme/your-theme-name/template/common/header.twig
 
 # OpenCart me CSS Stylesheet ka Path
 catalog/view/theme/default/stylesheet/stylesheet.css
+
+
+# Custom Page (information - Remove Title from Page)
+catalog/view/theme/your-theme-name/template/information/your-custom-page.twig
