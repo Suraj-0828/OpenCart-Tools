@@ -10,3 +10,5 @@ catalog/view/theme/your-theme-name/template/extension/module/blog.twig
 catalog/view/theme/your-theme-name/template/common/header.twig
 
 
+# OpenCart me CSS Stylesheet ka Path
+catalog/view/theme/default/stylesheet/stylesheet.css
