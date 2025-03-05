@@ -1,6 +1,8 @@
 # OpenCart-Tools
 Code with Mr Suraj
 
+# https://chatgpt.com/canvas/shared/67c835860ae48191a04ecb6071742670
+
 
 # blog path
 catalog/view/theme/your-theme-name/template/extension/module/blog.twig
