@@ -18,3 +18,7 @@ catalog/view/theme/default/stylesheet/stylesheet.css
 
 # Custom Page (information - Remove Title from Page)
 catalog/view/theme/your-theme-name/template/information/your-custom-page.twig
+
+
+# Logo header path   ( <img src="{{ logo }}" alt="{{ name }}" /> )
+/catalog/view/theme/YOUR_THEME_NAME/template/common/header.twig
