@@ -34,3 +34,9 @@ catalog/view/theme/your-theme-name/template/information/your-custom-page.twig
 
 # Logo header path   ( <img src="{{ logo }}" alt="{{ name }}" /> )
 /catalog/view/theme/YOUR_THEME_NAME/template/common/header.twig
+
+
+# Product card me price .00 remove
+Admin Panel me jao:
+👉 System > Localisation > Currencies
+Decimal places ko 2 se 0 me update karo.
