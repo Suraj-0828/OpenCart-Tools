@@ -21,6 +21,13 @@ $_['text_model'] = 'Product Code:';
 catalog/view/theme/default/stylesheet/stylesheet.css
 
 
+# product card title name change or update or comment 
+catalog/view/theme/YOUR_THEME/template/product/product.twig
+{% if product_id == 42 %}
+    <p>Brand:: {{ brand }}</p>
+{% endif %}
+
+
 # Custom Page (information - Remove Title from Page)
 catalog/view/theme/your-theme-name/template/information/your-custom-page.twig
 
