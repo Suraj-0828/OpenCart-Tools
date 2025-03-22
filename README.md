@@ -71,3 +71,29 @@ if ($category_info['name'] == 'Our Services') {
 }
 
 -------------------------------------------------------------
+
+**-------------------------------------------------------------**
+# Blog all blog link change and name change
+**-------------------------------------------------------------**
+1. Agar Default Blog Extension Hai
+👉 View File (Twig/TPL)
+Edit
+catalog/view/theme/your-theme/template/blog/blog.twig  
+catalog/view/theme/your-theme/template/extension/module/blog.twig
+Yahan {{ heading_title }} ya <?php echo $heading_title; ?> ka code hoga.
+
+👉 Language File Check Karein
+Edit
+catalog/language/en-gb/blog/blog.php  
+catalog/language/en-gb/extension/module/blog.php
+Isme aapko milega:
+
+👉 Language File Check Karein
+Edit
+/catalog/language/en-gb/information/bloger.php
+Isme aapko milega:
+
+Edit
+$_['heading_title'] = 'All Blog';
+
+**-------------------------------------------------------------**
